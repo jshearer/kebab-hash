@@ -1,6 +1,6 @@
 {
   "name": "kebab-hash",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Given an input string, convert to kebab-case and append a hash. Avoids kebab case collisions.",
   "files": [
     "lib"

@@ -7,7 +7,7 @@ case collisions.
 
 If you convert URLs to kebab case then `/foo-bar` and `/foo/bar` both become
 `foo-bar`. `kebab-hash` solves this problem by appending a hash of the input to
-the output string. So these two examples become `foo-bar-XXX` and `foo-bar-YYY`
+the output string. So these two examples become `foo-bar-096` and `foo-bar-1df`
 instead.
 
 # Node only

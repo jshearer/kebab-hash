@@ -10,7 +10,7 @@
     "build": "npm run prepack:babel && npm run prepack:flow",
     "prepack:babel": "babel src/ -d lib",
     "prepack:flow": "flow-copy-source src lib",
-    "test": "jest"
+    "test": "jest src/"
   },
   "repository": {
     "type": "git",

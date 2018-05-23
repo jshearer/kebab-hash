@@ -1,0 +1,30 @@
+{
+  "name": "kebab-hash",
+  "version": "0.1.0",
+  "description": "Given an input string, convert to kebab-case and append a hash. Avoids kebab case collisions.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GatsbyCentral/kebab-hash.git"
+  },
+  "keywords": [
+    "kebab",
+    "case",
+    "kebab",
+    "hash"
+  ],
+  "author": "Callum Macdonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GatsbyCentral/kebab-hash/issues"
+  },
+  "homepage": "https://github.com/GatsbyCentral/kebab-hash#readme",
+  "devDependencies": {
+    "flow-bin": "^0.72.0",
+    "flow-copy-source": "^1.3.0",
+    "jest": "^22.4.4"
+  }
+}

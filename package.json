@@ -1,9 +1,10 @@
 {
   "name": "kebab-hash",
-  "version": "0.1.0",
-  "description":
-    "Given an input string, convert to kebab-case and append a hash. Avoids kebab case collisions.",
-  "files": ["lib"],
+  "version": "0.1.1",
+  "description": "Given an input string, convert to kebab-case and append a hash. Avoids kebab case collisions.",
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "prepack": "npm run build",
@@ -16,7 +17,12 @@
     "type": "git",
     "url": "git+https://github.com/GatsbyCentral/kebab-hash.git"
   },
-  "keywords": ["kebab", "case", "kebab", "hash"],
+  "keywords": [
+    "kebab",
+    "case",
+    "kebab",
+    "hash"
+  ],
   "author": "Callum Macdonald",
   "license": "MIT",
   "bugs": {

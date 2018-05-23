@@ -9,3 +9,8 @@ If you convert URLs to kebab case then `/foo-bar` and `/foo/bar` both become
 `foo-bar`. `kebab-hash` solves this problem by appending a hash of the input to
 the output string. So these two examples become `foo-bar-XXX` and `foo-bar-YYY`
 instead.
+
+# Node only
+
+This package is designed for use on the server (node) not in the browser. PRs
+welcome.
